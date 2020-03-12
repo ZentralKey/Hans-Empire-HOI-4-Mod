@@ -1,0 +1,219 @@
+capital = 299
+
+oob = "HAH_1936"
+
+set_fuel_ratio = 0.5
+
+# Starting Tech
+set_technology = {
+	# Infantery technology
+	infantry_weapons = 1
+	
+	# Air Technology
+	early_figther = 1
+	
+	# Armor Technology
+	gwtank = 1	
+	
+}
+
+if = {
+	limit = { 
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+
+	}
+	set_naval_oob = "HAH_1936_naval"
+}
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		mtg_transport = 1
+		basic_torpedo = 1
+		early_ship_hill_submarine = 1
+		basic_battery = 1
+		basic_depth_charges = 1
+	}
+	set_naval_oob = "HAH_1936_naval_mtg"
+}
+if = {
+	limit = {
+		has_dlc = "La Resistance"
+	}
+	set_technology = {
+		armored_car1 = 1
+	}
+}
+
+set_research_slots = 1
+set_convoys = 5
+set_stability = 0.5
+set_war_support = 0.5
+
+1939.1.1 = {
+	add_named_threat = { threat = 1 name = 1939_bookmark_threat }
+	set_war_support = 0.68
+
+	add_political_power = 512
+	
+	oob = "HAH_1939"
+	
+	set_technology = {
+		#Air Doctrine
+		formation_flying = 1
+		dive_bombing = 1
+		
+		#Air Technology
+		CAS1 = 1
+		figther1 = 1
+		naval_bomber = 1
+		early_bomber = 1
+		interwar_figther = 1
+		
+		#Armor Technology
+		basic_light_tank = 1
+		improved_light_tank = 1
+
+		#Artillery Technology
+		gw_artillery = 1
+		interwar_antiair = 1
+		
+		#Engineering Technology
+		electronic_mechanical_engineering = 1
+		radio = 1
+		radio_detection = 1
+
+		#Industry Technology
+		basic_machine_tools = 1
+		concentrated_industry = 1
+		construction1 = 1
+		fuel_silos = 1
+		synth_oil_experiments = 1
+		
+		#Infantry Technology
+		infantry_weapons1 = 1
+		support_weapons = 1
+		motorised_infantry = 1
+		
+		#Land Doctrine
+		trench_warfare = 1
+		
+		#Naval Doctrine
+		base_strike = 1
+		convoy_escorts = 1
+
+		#Support Companies Technology
+		support_weapons = 1	
+		tech_recon = 1
+	}
+	if = {
+		limit = { 
+			not = { 
+				has_dlc = "Man the Guns" 
+			}
+		}
+		set_technology = {
+
+		}
+		set_naval_oob = "HAH_1936_naval_legacy"
+	}
+	if = {
+		limit = {
+			has_dlc = "Man the Guns"
+		}
+		set_technology = {
+			basic_ship_hull = 1
+			sonar = 1
+			early_ship_hull_cruiser = 1			
+		}
+		set_naval_oob = "HAH_1939_naval_mtg"
+	}
+}
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1926.2.26"
+	election frequency = 24
+	election_allowed = no
+}
+set_popularities = {
+	democratic = 8
+	fascism = 88	
+	communism = 4
+}
+
+add_ideas = {
+
+}
+
+create_country_leader = {
+	name = "A. Golf Hortler"
+	desc = "POLITICS_A_GOLF_HORTLER_DESC"
+	picture = "Portrait_A_Golf_Hortler.dss"
+	expire = "1996.1.1"
+	ideology = nazism
+	traits = {
+		headstrong
+		fascist_militia_leader
+	}	
+}
+
+create_field_marshal = {
+	name = "Rudolf von Rübenherz"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = { }
+	id = 1
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_field_marshal = {
+	name = "Cävvyn Sektengruß"
+	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+	traits = { }
+	id = 2
+	attack_skill = 1
+	defense_skill = 1
+	planning_skill = 1
+	logistics_skill = 1
+}
+create_corps_commander = {  #Placeholder
+ 	name = "Sean McHaggis"
+ 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+ 	traits = { panzer_leader fortress_buster }
+ 	attack_skill = 4
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}
+create_navy_leader = { #Placeholder
+ 	name = "James McSeafarer"
+ 	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+ 	traits = { blockade_runner superior_tactician }
+ 	attack_skill = 3
+	defense_skill = 3
+	maneuvering_skill = 5
+	coordination_skill = 2
+}				
+
+			
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

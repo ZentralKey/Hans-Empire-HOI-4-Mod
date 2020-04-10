@@ -1,0 +1,38 @@
+state= {
+	id=299
+	name="STATE_299"
+	manpower=1000000000
+	resources={
+		oil=50
+		steel=50
+		chromium=50
+		tungsten=50
+		rubber=50
+		aluminium=50
+	}
+	
+	state_category = large_city
+	
+	history={
+		victory_points = {
+			12960 50
+		}
+		owner = HAH
+		controller = HAH
+
+		buildings = {
+			air_base = 10
+			infrastructure = 10
+			naval_base = 10
+			bunker = 10
+			coastal_bunker = 10
+			anti_air = 10
+			arms_factory = 20
+			dockyard = 20
+			industrial_complex = 10
+		}
+		add_core_of = HAH
+	}
+	provinces= { 
+		12960 }
+}

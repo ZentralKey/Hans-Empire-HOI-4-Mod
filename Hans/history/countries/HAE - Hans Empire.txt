@@ -1,0 +1,135 @@
+#Capital Region
+capital = 502
+
+#Political Power
+add_political power = 1000
+
+#Popularities
+set_popularities = {
+	democratic = 5
+	communism = 2
+	fascism = 93
+	neutrality = 0
+}
+
+#Politics
+set_politics = {
+	ruling_party = fascism
+	last_election = "1932.11.5"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+#Convoys
+set_convoys = 100
+
+#Research Slots
+set_research_slots = 4
+
+#Stability
+set_stability = 0.8
+
+#War Support
+set_war_support = 0.8
+
+#Faction
+create_faction = The_Reich
+
+#Order of Battle 1936
+oob = "HAE_1936" 
+
+if = {
+	limit = { has_dlc = "Man the Guns"}
+		set_naval_oob = "HAE_1936_naval_mtg"
+	else = {
+		set_naval_oob = "HAE_1936_naval_legacy"
+	}
+}
+
+#Ideas
+add_ideas = {
+
+
+		#Laws
+
+}
+
+#Technology
+set_technology = {
+}
+
+#Technology Navy
+if = {
+	limit = { not = { has_dlc = "Man the Guns" } }
+	set_technology = {
+	}
+	set_naval_ob = "HAE_1936_naval_legacy"
+}
+if = {
+	limit = has_dlc = "Man the Guns" }
+	set_technology = {
+	}
+	set_naval_oob = "HAE_1936_naval_mtg"
+}
+
+#Tech Bonus
+add_tech_bonus = {
+	bonus = 1.0
+	uses = 6
+	category = armor
+}
+
+#Country Leader
+create_country_leader = {
+	name = "Hans the Luger Guy"
+	desc = "POLITICS_HANS_THE_LUGER_GUY_DESC"
+	picture = "gfx/leaders/HAE/HansTheLugerGuy.dds"
+	expire = "1999.1.1"
+	ideology = fascism_ideology
+	traits = {
+	}
+}
+
+#Army Leaders
+create_corps_commander = {
+	name = ""
+	portrait_path = "gfx/cc/HAE/Portrait.dds"
+	traits = {
+	}
+	attack_skill = 0
+	defense_skill =  0
+	planning_skill = 0
+	logistics_skill = 0
+}
+create_corps_commander = {
+	name = ""
+	portrait_path = "gfx/cc/HAE/Portrait.dds"
+	traits = {
+	}
+	attack_skill = 0
+	defense_skill =  0
+	planning_skill = 0
+	logistics_skill = 0
+}
+create_corps_commander = {
+	name = ""
+	portrait_path = "gfx/cc/HAE/Portrait.dds"
+	traits = {
+	}
+	attack_skill = 0
+	defense_skill =  0
+	planning_skill = 0
+	logistics_skill = 0
+}
+
+#Navy Leaders
+create_navy_leader = {
+	name = ""
+	portrait_path = "gfx/nl/HAE/Portrait.dds"
+	traits = {
+	}
+	attack_skill = 0
+	defense_skill =  0
+	maneuvering_skill = 0
+	coordination_skill = 0
+}

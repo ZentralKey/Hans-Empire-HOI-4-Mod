@@ -1,6 +1,11 @@
 #reload countrycolors
 
 HAE = {
-	color = rgb { 60 20 10}
-	color_ui = rgb { 100 60 50}
+	color = rgb { 65 105 225 }
+	color_ui = rgb { 0 191 255 }
+}
+
+SBO = {
+	color = rgb { 235 1 165 }
+	color_ui = rgb { 176 0 181 }
 }

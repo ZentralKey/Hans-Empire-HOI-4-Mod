@@ -1,1 +1,2 @@
 HAE = "countries/Hans Empire.txt"
+SBO = "countries/SBOIstan.txt"

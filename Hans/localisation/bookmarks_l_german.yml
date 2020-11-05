@@ -1,11 +1,8 @@
 ﻿l_german:
  BM_HISTORY_TITLE:0 "Geschichtlicher Abriss"
- GATHERING_STORM_NAME:0 "Der Anfang des Ende"
- GATHERING_STORM_DESC:0 "Kein Krieg aber dennoch hohe Anspannungen zwischen den führenden Reichen. Was wird nur passieren ?"
+ THE_BEGINNING_OF_THE_END_NAME:0 "Der Anfang des Ende"
+ THE_BEGINNING_OF_THE_END_DESC:0 "Kein Krieg aber dennoch hohe Anspannungen zwischen den führenden Reichen. Was wird nur passieren ?"
  HITTING_FAN_NAME:0 "Das Chaos bricht aus"
  HITTING_FAN_DESC:0 "Jepp, genau! Diese Regenschirmsammlung wird sich als nützlich erweisen."
  HAE_GATHERING_STORM_DESC:0 "Das Reich welches auf Krieg und Wissenschaft gebaut wurde muss sich nun auf einer neuen Bühne beweisen." 
- BLITZKRIEG_NAME:0 "Placeholder"
- BLITZKRIEG_DESC:0 "Placeholder"
- HAE_BLITZKRIEG_DESC:0 "Das Reich welches auf Krieg und Wissenschaft gebaut wurde muss sich nun auf einer neuen Bühne beweisen."
  

@@ -168,7 +168,7 @@ create_country_leader = {
 	desc = "POLITICS_HANS_THE_LUGER_GUY_DESC"
 	picture = "gfx/leaders/HansTheLugerGuy.dds"
 	expire = "1999.1.1"
-	ideology = fascism_ideology
+	ideology = fascism
 	traits = {
 	}
 }

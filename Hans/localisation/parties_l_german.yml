@@ -1,4 +1,5 @@
 ﻿l_german:
+#Hans Empire
  HAE_fascism_party:1 "Braun"
  HAE_fascism_party_long:1 "Die Braunen"
  HAE_communism_party:1 "Rot"
@@ -7,3 +8,12 @@
  HAE_democratic_party_long:1 "Die Blauen"
  HAE_neutrality_party:1 "Grau"
  HAE_neutrality_party_long:1 "Die Grauen"
+#SBOistan
+ SBO_fascism_party:1 ""
+ SBO_fascism_party_long:1 ""
+ SBO_communism_party:1 ""
+ SBO_communism_party_long:1 ""
+ SBO_democratic_party:1 ""
+ SBO_democratic_party_long:1 ""
+ SBO_neutrality_party:1 ""
+ SBO_neutrality_party_long:1 ""
